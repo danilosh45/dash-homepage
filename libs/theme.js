@@ -16,9 +16,10 @@ const components = {
         textDecoration: 'underline',
         fontSize: 20,
         textUnderlineOffset: 6,
+        textDecorationColor: '#525252',
         textDecorationThickness: 4,
         marginTop: 3,
-        marginBotton: 4
+        marginBottom: 4
       }
     }
   },
@@ -31,7 +32,7 @@ const components = {
 }
 
 const fonts = {
-  heading: "'M Plus Rounded 1c'"
+  heading: "'M Plus Code Latin'"
 }
 
 const colors = {
