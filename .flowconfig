@@ -1,0 +1,3 @@
+[libs]
+node_modules/react-native/interface.js
+node_modules/react-native/flow/
