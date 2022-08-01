@@ -2,9 +2,9 @@ import { Container, SimpleGrid, Heading, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbIndrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-
+import thumbCreativos from '../public/images/works/inkdrop_eyecatch.png'
+import thumbMimi from '../public/images/works/discord_bot_midori.png'
+import thumbDashboard from '../public/images/works/inkdrop_eyecatch.png'
 
 const Works = () => {
   return (
@@ -15,17 +15,17 @@ const Works = () => {
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="HeyCreativos" thumbnail={thumbIndrop}>
+          <WorkGridItem id="creativos" title="HeyCreativos" thumbnail={thumbCreativos}>
             Build backend and deploy for Comercial website
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="walknote" title="Mimi" thumbnail={thumbWalknote}>
+          <WorkGridItem id="mimi" title="Mimi" thumbnail={thumbMimi}>
             A simple bot for discord for assitance and more
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="walknote" title="Dash dashboard" thumbnail={thumbWalknote}>
+          <WorkGridItem id="dashboard" title="Dash dashboard" thumbnail={thumbDashboard}>
             Web scraping for dev
           </WorkGridItem>
         </Section>

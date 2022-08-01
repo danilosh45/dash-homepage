@@ -18,8 +18,8 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mb={6} align="center">
-          Hello I&apos;m a Devop based in Spain!
+        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+          Hello I&apos;m a programmer based in Spain!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -42,7 +42,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/takuya.jpg"
+              src="/images/danilo.jpg"
               alt="Profile Image" />
           </Box>
         </Box>
