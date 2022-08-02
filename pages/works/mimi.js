@@ -29,14 +29,10 @@ const Work = () => (
         functionality to your server.
         And provide a pleasant experience to users
       </P>
-      <P>
-        So, you can check a shop info as soon as you found a promising ramen
-        shop in a food magazine. Let&apos;s go out and have a delicious ramen!
-      </P>
       <UnorderedList my={4}>
-        <ListItem>Ramen shop recomendation based on photo</ListItem>
-        <ListItem>Ramen shop recomendation based on photo</ListItem>
-        <ListItem>Ramen shop recomendation based on photo</ListItem>
+        <ListItem>Relevant server information</ListItem>
+        <ListItem>Invitation assistant</ListItem>
+        <ListItem>Voice control channel</ListItem>
       </UnorderedList>
 
       <List ml={4}>
