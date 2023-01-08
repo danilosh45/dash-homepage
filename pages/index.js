@@ -8,7 +8,7 @@ import {
   Link,
   Button
 } from '@chakra-ui/react'
-import Section from '../components/section'
+    import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'

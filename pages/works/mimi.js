@@ -25,9 +25,8 @@ const Work = () => (
         mimi <Badge>2020-present</Badge>
       </Title>
       <P>
-        Mimi is a discord bot written in python, useful for adding
-        functionality to your server.
-        And provide a pleasant experience to users
+        Mimi is a discord bot written in python, useful for adding functionality
+        to your server. And provide a pleasant experience to users
       </P>
       <UnorderedList my={4}>
         <ListItem>Relevant server information</ListItem>
@@ -47,8 +46,7 @@ const Work = () => (
       </List>
       <Divider />
       <WorkImage src="/images/works/mimi_eyecatch.png" alt="mimi" />
-      <SimpleGrid columns={2} gap={2}>
-      </SimpleGrid>
+      <SimpleGrid columns={2} gap={2}></SimpleGrid>
     </Container>
     <Footer />
   </Layout>

@@ -5,9 +5,7 @@ import {
   List,
   Heading,
   ListItem
-
 } from '@chakra-ui/react'
-
 
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -23,7 +21,7 @@ const Work = () => (
       <Heading>Soon complete info</Heading>
       <P>Sooner possible</P>
     </Container>
-      <Footer />
+    <Footer />
   </Layout>
 )
 
