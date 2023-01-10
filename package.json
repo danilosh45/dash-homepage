@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Danilo Altamirano",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
@@ -26,9 +26,8 @@
   },
   "devDependencies": {
     "eslint": "^8.22.0",
-    "@next/eslint-plugin-next": "^13.1.1",
-    "eslint-plugin-react": "^7.31.11",
     "eslint-config-next": "^13.1.1",
+    "flow-language-server": "^0.6.0",
     "prettier": "^2.7.1"
   }
 }

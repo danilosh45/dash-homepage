@@ -8,17 +8,23 @@ import {
   Link,
   Button
 } from '@chakra-ui/react'
-    import Section from '../components/section'
+import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article';
+import Layout from '../components/layouts/article'
 
 const Page = () => {
   return (
     <Layout>
       <Container>
-        <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+        <Box
+          borderRadius="lg"
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          p={3}
+          mb={6}
+          align="center"
+        >
           Hello I&apos;m a programmer based in Spain!
         </Box>
 
@@ -43,7 +49,8 @@ const Page = () => {
               display="inline-block"
               borderRadius="full"
               src="/images/danilo.jpg"
-              alt="Profile Image" />
+              alt="Profile Image"
+            />
           </Box>
         </Box>
         <Section delay={0.1}>
@@ -51,10 +58,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Danilo is a freelance and Devop/Backend developer based in Spain with passion
-            for building digital services/stuff he wants.
-            When not online, he loves to  play bass and take pictures with his 35mm film camera.
-            Currently, he is building comercial websites out of La Rioja, Spain {' '}
+            Danilo is a freelance and Devop/Backend developer based in Spain
+            with passion for building digital services/stuff he wants. When not
+            online, he loves to play bass and take pictures with his 35mm film
+            camera. Currently, he is building comercial websites out of La
+            Rioja, Spain{' '}
             <NextLink href="/works/indrop">
               <Link>Band</Link>
             </NextLink>
@@ -62,16 +70,15 @@ const Page = () => {
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink" >
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 My portfolio
               </Button>
             </NextLink>
           </Box>
         </Section>
 
-
         <Section delay={0.2}>
-          <Heading as="h3" variant="section-title" >
+          <Heading as="h3" variant="section-title">
             Bio
           </Heading>
           <BioSection>
@@ -79,8 +86,7 @@ const Page = () => {
             Born in Nicaragua.
           </BioSection>
           <BioSection>
-            <BioYear>2017</BioYear>
-            I leave the university to be self-taught
+            <BioYear>2017</BioYear>I leave the university to be self-taught
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
@@ -96,17 +102,13 @@ const Page = () => {
             🎵
           </Heading>
           <Paragraph>
-            Art, Music, {' '}
-            <Link href="https://instagram.com/milcordobas">
-              Playing Bass
-            </Link>
-            , Nikon, {' '}
-            <Link href="https://instagram.com/danilosh45">
-              Photography
-            </Link>
+            Art, Music,{' '}
+            <Link href="https://instagram.com/milcordobas">Playing Bass</Link>,
+            Nikon,{' '}
+            <Link href="https://instagram.com/danilosh45">Photography</Link>
           </Paragraph>
         </Section>
-      </Container >
+      </Container>
     </Layout>
   )
 }

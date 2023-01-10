@@ -1,4 +1,4 @@
 module.exports = {
-  reactStricMode: true,
+  reactStrictMode: true,
   swcMinify: true
 }
