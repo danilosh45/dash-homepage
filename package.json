@@ -27,6 +27,7 @@
   "devDependencies": {
     "eslint": "^8.22.0",
     "eslint-config-next": "^13.1.1",
+    "flow-bin": "^0.196.3",
     "flow-language-server": "^0.6.0",
     "prettier": "^2.7.1"
   }
