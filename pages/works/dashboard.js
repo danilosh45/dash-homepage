@@ -1,18 +1,10 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  Heading,
-  ListItem
-
-} from '@chakra-ui/react'
+import { Container, Badge, Heading } from '@chakra-ui/react'
 import Footer from '../../components/footer'
 import Layout from '../../components/layouts/article'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title } from '../../components/work'
 import P from '../../components/paragraph'
 
-const Work = () => ( 
+const Work = () => (
   <Layout title="dashboard">
     <Container>
       <Title>
@@ -21,9 +13,9 @@ const Work = () => (
       <Heading>Soon complete info</Heading>
       <P>Sooner possible</P>
     </Container>
-      <Footer />
+    <Footer />
   </Layout>
 )
 
 export default Work
-export {getServerSideProps} from '../../components/chakra'
+export { getServerSideProps } from '../../components/chakra'

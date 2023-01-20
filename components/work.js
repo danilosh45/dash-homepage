@@ -1,8 +1,7 @@
 import NextLink from 'next/link'
 import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import { ChevronUpIcon } from '@chakra-ui/icons'
-import Head from 'next/head'
-
+//import Head from 'next/head'
 
 export const Title = ({ children }) => (
   <Box>
@@ -11,7 +10,8 @@ export const Title = ({ children }) => (
     </NextLink>
     <span>
       {''}
-      <ChevronUpIcon />{''}
+      <ChevronUpIcon />
+      {''}
     </span>
     <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
       {children}

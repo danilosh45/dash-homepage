@@ -4,7 +4,6 @@ import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelDogLoader from '../voxel-dog-loader'
 import dynamic from 'next/dynamic'
-import Footer from '../footer'
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
   ssr: false,
