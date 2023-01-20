@@ -8,12 +8,10 @@ import {
   Link,
   Button,
   List,
-  ListItem,
-  SimpleGrid
+  ListItem
 } from '@chakra-ui/react'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
