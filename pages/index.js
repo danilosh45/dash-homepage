@@ -6,9 +6,14 @@ import {
   Image,
   useColorModeValue,
   Link,
-  Button
+  Button,
+  List,
+  ListItem,
+  SimpleGrid
 } from '@chakra-ui/react'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 import { BioSection, BioYear } from '../components/bio'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -107,6 +112,46 @@ const Page = () => {
             Nikon,{' '}
             <Link href="https://instagram.com/danilosh45">Photography</Link>
           </Paragraph>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/danilosh45" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="pink"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @danilosh45
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/danilosh45" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="pink"
+                  leftIcon={<IoLogoTwitter />}
+                >
+                  @danilosh45{' '}
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://instagram.com/danilosh45" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="pink"
+                  leftIcon={<IoLogoInstagram />}
+                >
+                  @danilosh45
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
       <Footer />
