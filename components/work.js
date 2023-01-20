@@ -6,7 +6,7 @@ import Head from 'next/head'
 
 export const Title = ({ children }) => (
   <Box>
-    <NextLink href="/works" passHref>
+    <NextLink href="/works" passHref legacyBehavior>
       <Link>Works</Link>
     </NextLink>
     <span>

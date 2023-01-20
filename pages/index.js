@@ -63,13 +63,13 @@ const Page = () => {
             online, he loves to play bass and take pictures with his 35mm film
             camera. Currently, he is building comercial websites out of La
             Rioja, Spain{' '}
-            <NextLink href="/works/indrop">
+            <NextLink href="/works/indrop" legacyBehavior>
               <Link>Band</Link>
             </NextLink>
             .
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/works" legacyBehavior>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 My portfolio
               </Button>
@@ -110,7 +110,7 @@ const Page = () => {
         </Section>
       </Container>
     </Layout>
-  )
+  );
 }
 
 export default Page
