@@ -19,9 +19,8 @@ const NotFound = () => {
           <Button colorScheme="teal"> Return to home</Button>
         </NextLink>
       </Box>
-
     </Container>
-  );
+  )
 }
 
 export default NotFound

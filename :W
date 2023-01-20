@@ -63,10 +63,11 @@ const Page = () => {
             with passion for building digital services/stuff he wants. When not
             online, he loves to play bass and take pictures with his 35mm film
             camera. Currently, he is building comercial websites out of La
-            Rioja.
-            <Link href="https://www.twitch.tv/danilosh45/about">
-              Sometimes on twitch
-            </Link>
+            Rioja, Spain{' '}
+            <NextLink href="/works/indrop" legacyBehavior>
+              <Link>Band</Link>
+            </NextLink>
+            .
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" legacyBehavior>
